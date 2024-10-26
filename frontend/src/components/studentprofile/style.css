@@ -1,0 +1,375 @@
+/* Reset */ 
+
+* { 
+
+    margin:0; 
+    
+    padding:0; 
+    
+    box-sizing: border-box; 
+    
+    }
+    
+     
+    
+    body { 
+    
+    font-family: Arial, sans-serif; 
+    
+    background-color: #f2f2f2; 
+    
+    } 
+    
+     
+    
+    /* Navbar */ 
+    
+    .navbar { 
+    
+    display: flex; 
+    
+    justify-content: space-between; 
+    
+    align-items: center; 
+    
+    padding: 15px 30px; 
+    
+    background: linear-gradient(to right, #15181C, #21262C, #2B3238, #815E39); 
+    
+    border-radius: 35px; 
+    
+    margin: 20px; 
+    
+    color: white; 
+    
+    } 
+    
+     
+    
+    .navbar nav { 
+    
+    display: flex; 
+    
+    gap: 20px; 
+    
+    } 
+    
+     
+    
+    .navbar nav a { 
+    
+    text-decoration: none; 
+    
+    color: white; 
+    
+    font-size: 18px; 
+    
+    } 
+    
+     
+    
+    .search-bar { 
+    
+    display: flex; 
+    
+    align-items: center; 
+    
+    gap: 5px; 
+    
+    } 
+    
+     
+    
+    .search-bar input { 
+    
+    padding: 8px; 
+    
+    border-radius: 15px; 
+    
+    border: none; 
+    
+    } 
+    
+     
+    
+    .search-bar button { 
+    
+    background-color: #815E39; 
+    
+    border: none; 
+    
+    padding: 8px 12px; 
+    
+    cursor: pointer; 
+    
+    border-radius: 15px; 
+    
+    color: white; 
+    
+    } 
+    
+     
+    
+    /* Main Container */ 
+    
+    .container { 
+    
+    display: flex; 
+    
+    margin: 20px; 
+    
+    gap: 20px; 
+    
+    } 
+    
+     
+    
+    /* Sidebar */ 
+    
+    .sidebar { 
+    
+    width: 20%; 
+    
+    background-color: #383838; 
+    
+    color: white; 
+    
+    padding: 20px; 
+    
+    border-radius: 10px; 
+    
+    display: flex; 
+    
+    flex-direction: column; 
+    
+    align-items: center; 
+    
+    } 
+    
+     
+    
+    .profile img { 
+
+    width: 100px; 
+
+    height: 100px; 
+
+    border-radius: 50%; 
+
+    margin-bottom: 10px; 
+    
+    } 
+    
+     
+    
+    .profile h2 { 
+    
+    font-size: 18px; 
+    
+    margin-bottom: 20px; 
+    
+    } 
+    
+     
+    
+    .btn { 
+    
+    background-color: #625e5e; 
+    
+    color: white; 
+    
+    border: none; 
+    
+    padding: 10px; 
+    
+    margin: 10px 0; 
+    
+    cursor: pointer; 
+    
+    width: 100%; 
+    
+    text-align: left; 
+    
+    border-radius: 5px; 
+    
+    } 
+    
+     
+    
+    /* Content */ 
+    
+    .content { 
+    
+    width: 60%; 
+    
+    display: flex; 
+    
+    flex-direction: column; 
+    
+    gap: 20px; 
+    
+    } 
+    
+     
+    
+    .news { 
+    
+    position: relative; 
+    
+    } 
+    
+     
+    
+    .news img { 
+    
+    width: 100%; 
+    
+    height: 300px; 
+    
+    object-fit: cover; 
+    
+    border-radius: 10px; 
+    
+    } 
+    
+     
+    
+    .news h3 { 
+    
+    position: absolute; 
+    
+    bottom: 10px; 
+    
+    left: 10px; 
+    
+    color: white; 
+    
+    background-color: rgba(0, 0, 0, 0.5); 
+    
+    padding: 5px 10px; 
+    
+    border-radius: 5px; 
+    
+    } 
+    
+     
+    
+    /* Course Suggestions */ 
+    
+    .course-suggestions h3 { 
+    
+    margin-bottom: 10px; 
+    
+    } 
+    
+     
+    
+    .courses { 
+    
+    display: flex; 
+    
+    align-items: center; 
+    
+    gap: 10px; 
+    
+    } 
+    
+     
+    
+    .courses img { 
+    
+    width: 30%; 
+    
+    height: 100px; 
+    
+    object-fit: cover; 
+    
+    border-radius: 5px; 
+    
+    } 
+    
+     
+    
+    .add-course { 
+    
+    background-color: #d9d9d9; 
+    
+    font-size: 24px; 
+    
+    width: 40px; 
+    
+    height: 40px; 
+    
+    border-radius: 50%; 
+    
+    border: none; 
+    
+    ursor: pointer; 
+    
+    } 
+    
+     
+    
+    /* Right Sidebar */ 
+    
+    .right-sidebar { 
+    
+    width: 20%; 
+    
+    background-color: #524e4e; 
+    
+    color: white; 
+    
+    padding: 20px; 
+    
+    border-radius: 10px; 
+    
+    display: flex; 
+    
+    flex-direction: column; 
+    
+    gap: 20px; 
+    
+    } 
+    
+     
+    
+    .schedule { 
+    
+    background-color: #6a6868; 
+    
+    padding: 15px; 
+    
+    border-radius: 10px; 
+    
+    text-align: center; 
+    
+    } 
+    
+     
+    
+    .schedule .event { 
+    
+    background-color: #b9b9b9; 
+    
+    color: black; 
+    
+    width: 30px; 
+    
+    height: 30px; 
+    
+    margin: 10px auto; 
+    
+    border-radius: 50%; 
+    
+    display: flex; 
+    
+    justify-content: center; 
+    
+    align-items: center; 
+    
+     
+    
+    } 
+    
+     

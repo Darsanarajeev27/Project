@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
+            <div class="role-selector">
+                <label for="role">I am a:</label>
+                <div class="slider">
+                    <input type="radio" id="student" name="role" value="student" checked>
+                    <label for="student">Student</label>
+                    <input type="radio" id="admin" name="role" value="admin">
+                    <label for="admin">Admin</label>
+                </div>
+            </div>
+            <button type="submit">Login</button>
+            <p class="register">Don't have an account? <a href="#">Create one</a></p>
+        </form>
+    </div>
+</body>
+</html>
